@@ -1,19 +1,19 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 //VCS - Version Control System
 //commit
 //Mercury, Subversion .... Git/GitHub
-//Git - система контроля версий
-//GitHub - облачное хранилище 
+//Git - СЃРёСЃС‚РµРјР° РєРѕРЅС‚СЂРѕР»СЏ РІРµСЂСЃРёР№
+//GitHub - РѕР±Р»Р°С‡РЅРѕРµ С…СЂР°РЅРёР»РёС‰Рµ 
 //VCS Git: push, fetch, pull
 //commit
 
 void main()
 {
 	setlocale(LC_ALL, "Russian");
-	int n;	//Количество итераций
-	cout << "Введите количество итераций: "; cin >> n;
+	int n;	//РљРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№: "; cin >> n;
 	for (
 		int i = 0; //Counter (Start)
 		i < n;  //Condition (Stop)
